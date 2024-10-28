@@ -1,0 +1,123 @@
+.todo-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.todo-table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  /* text-align: left; */
+}
+
+.todo-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  width: 20%;
+}
+
+.todo-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.todo-table tr:hover {
+  background-color: #ddd;
+}
+
+.add-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: 100px auto;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.todo-form .form-group {
+  margin-bottom: 15px;
+}
+
+.todo-form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.todo-form input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.submit-button,
+.cancel-button {
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.cancel-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.cancel-button:hover {
+  background-color: #e53935;
+}
+.pending-status {
+  background-color: rgb(227, 227, 29);
+  color: white;
+  padding: 10px 13px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 13px;
+}
+.done-status {
+  background-color: #37b437;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 13px;
+}
